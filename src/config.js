@@ -12,5 +12,6 @@ export default {
     USER_POOL_ID: "us-east-1_B0AuJAMJD",
     APP_CLIENT_ID: "3k9lvnnfr1nrsgll5idqtl4t3",
     IDENTITY_POOL_ID: "us-east-1:2ce0a5ea-e4a6-43a8-a345-f6200b5798e1"
-  }
+  },
+  MAX_ATTACHMENT_SIZE: 5000000
 };
