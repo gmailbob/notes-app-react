@@ -1,0 +1,5 @@
+react build pipeline用的是netlify，账号是github（而不是通用的gmail），赋予了本repo读写权限
+
+最后有点问题没有完全调通：就是不管哪个branch有了新的commit，在build的时候都是set to dev，导致都写进了dynamodb dev数据库
+
+鉴于并不准备深入研究这个netlify，所以就此打住。注意：之后aws上的资源会删除。想要重新run起来需要更新config.js内容
